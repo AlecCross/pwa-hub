@@ -18,18 +18,8 @@
       "type": "image/webp"
     },
     {
-      "src": "/icon-180.webp?v=2",
-      "sizes": "180x180",
-      "type": "image/webp"
-    },
-    {
       "src": "/icon-192.webp?v=2",
       "sizes": "192x192",
-      "type": "image/webp"
-    },
-    {
-      "src": "/icon-384.webp?v=2",
-      "sizes": "384x384",
       "type": "image/webp"
     },
     {
