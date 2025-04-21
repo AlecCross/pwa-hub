@@ -88,6 +88,12 @@ const apps = [
     link: 'https://gumi-sounds.vercel.app',
     icon: '/apps-icons/Gumi-sounds/icon-512-512.webp',
   },
+  {
+    name: 'Gamepad Test',
+    description: 'Controller Tester',
+    link: 'https://gamepad-test.vercel.app',
+    icon: '/apps-icons/Gamepad Test/icon-512x512.webp',
+  },
 ];
 
 export default function Home() {
