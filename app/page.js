@@ -1,3 +1,5 @@
+//app/page.jsx
+
 "use client"
 
 import styled from 'styled-components';
@@ -27,72 +29,84 @@ const apps = [
     description: 'Перетворювач розкладки клавіатури',
     link: 'https://rozkladka.vercel.app/',
     icon: '/apps-icons/rozkladka/icon-512.webp',
+    path: 'rozkladka', // Назва папки
   },
   {
     name: 'Img2Text Liard',
     description: 'Розпізнавання тексту з зображень',
     link: 'https://img2text-liard.vercel.app/',
     icon: '/apps-icons/img2text/icon-512.webp',
+    path: 'img2text', // Назва папки
   },
   {
     name: 'Next PWA Icons',
     description: 'Генератор іконок для PWA',
     link: 'https://next-pwa-icons.vercel.app/',
     icon: '/apps-icons/icons-for-pwa-webp/icon-512.webp',
+    path: 'icons-for-pwa', // Назва папки
   },
   {
     name: 'TxtDiff',
     description: 'Порівняння текстових файлів',
     link: 'https://txtdiff.vercel.app/',
     icon: '/apps-icons/txtdiff-icons/icon-512.webp',
+    path: 'txtdiff', // Назва папки
   },
   {
     name: 'PWA Player',
     description: 'Аудіо- та відеопрогравач',
     link: 'https://pwa-player.vercel.app/',
     icon: '/apps-icons/pwa-player/icon-512.webp',
+    path: 'pwa-player', // Назва папки
   },
   {
     name: 'Next Stopwatch',
     description: 'Секундомір та таймер',
     link: 'https://next-stopwatch.vercel.app/',
     icon: '/apps-icons/stopwatch/icon-512.webp',
+    path: 'stopwatch', // Назва папки
   },
   {
     name: 'Next Audio Extractor',
     description: 'Витягнення аудіо з відео',
     link: 'https://next-audio-extractor.vercel.app/',
     icon: '/apps-icons/audio-extractor-pwa-icons/icon-512.webp',
+    path: 'audio-extractor', // Назва папки
   },
   {
     name: 'Amoled Saver',
     description: 'Збереження заряду AMOLED-екрану',
     link: 'https://amoled-saver.vercel.app/',
     icon: '/apps-icons/black-screensaver-pwa-icons/icon-512.webp',
+    path: 'black-screensaver', // Назва папки
   },
   {
     name: 'Next FFmpeg',
     description: 'Інтерфейс для FFmpeg',
     link: 'https://next-ffmpeg.vercel.app',
     icon: '/apps-icons/ffmpeg/icon-512x512.png',
+    path: 'ffmpeg', // Назва папки
   },
   {
     name: 'RGB Wall',
     description: 'Create Walpaper',
     link: 'https://rgb-wall.vercel.app',
     icon: '/apps-icons/rgb-wall/icon-512.webp',
+    path: 'rgb-wall', // Назва папки
   },
   {
     name: 'Gumi-sounds',
     description: 'funny notification',
     link: 'https://gumi-sounds.vercel.app',
     icon: '/apps-icons/gumi-sounds/icon-512-512.webp',
+    path: 'gumi-sounds', // Назва папки
   },
   {
     name: 'Gamepad Test',
     description: 'Controller Tester',
     link: 'https://gamepad-test.vercel.app',
     icon: '/apps-icons/gamepad-test/icon-512x512.webp',
+    path: 'gamepad-test', // Назва папки
   },
 ];
 

@@ -1,3 +1,5 @@
+//components/AppCard.jsx
+
 "use client"
 import styled from 'styled-components';
 import Link from 'next/link';
@@ -12,6 +14,7 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  cursor: pointer; // Додаємо курсор для візуального зворотного зв'язку
 `;
 
 const AppIcon = styled.img`
@@ -30,14 +33,16 @@ const AppDescription = styled.p`
 
 const AppCard = ({ app }) => {
   return (
-    <Card>
-      <AppIcon src={app.icon} alt={app.name} />
-      <AppTitle>{app.name}</AppTitle>
-      <AppDescription>{app.description}</AppDescription>
-      <Link href={app.link}>
-        <button>Перейти</button>
-      </Link>
-    </Card>
+    <Link href={`/${app.path}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+      <Card>
+        <AppIcon src={app.icon} alt={app.name} />
+        <AppTitle>{app.name}</AppTitle>
+        <AppDescription>{app.description}</AppDescription>
+        <Link href={app.link} target="_blank" rel="noopener noreferrer">
+          <button>Перейти до застосунку</button>
+        </Link>
+      </Card>
+    </Link>
   );
 };
 
