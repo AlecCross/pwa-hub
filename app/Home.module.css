@@ -1,0 +1,36 @@
+.container {
+    padding: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* Media запити для адаптивності */
+  @media (min-width: 600px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  .appIcon { /* Цей стиль, можливо, не використовується безпосередньо у Home, але може бути корисним в AppCard */
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
