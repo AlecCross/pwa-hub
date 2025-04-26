@@ -11,7 +11,7 @@ const GumiSoundsPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
-    link: 'https://gamepad-test.vercel.app',
+    link: 'https://gumi-sounds.vercel.app',
   };
 
   return <AppDetailsTemplate app={audioExtractorData} />;

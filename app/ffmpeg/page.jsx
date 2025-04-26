@@ -11,7 +11,7 @@ const AmoledSaverPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
-    link: 'https://amoled-saver.vercel.app',
+    link: 'https://next-ffmpeg.vercel.app',
   };
 
   return <AppDetailsTemplate app={audioExtractorData} />;
