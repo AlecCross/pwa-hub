@@ -89,6 +89,13 @@ const apps = [
         path: 'gamepad-test',
         codeLink: 'https://github.com/AlecCross/gamepad-test',
     },
+    {
+        name: 'MusTag',
+        link: 'https://mus-tag.vercel.app',
+        icon: '/apps-icons/mus-tag/icon-512x512.webp',
+        path: 'mus-tag',
+        codeLink: 'https://github.com/AlecCross/mus-tag',
+    },
 ];
 
 export default function Home() {
