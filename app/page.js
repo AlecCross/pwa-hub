@@ -43,6 +43,7 @@ const apps = [
     {
         name: 'Next Stopwatch',
         link: 'https://next-stopwatch.vercel.app/',
+        link: 'https://next-stopwatch.vercel.app/',
         icon: '/apps-icons/stopwatch/icon-512.webp',
         path: 'stopwatch',
         codeLink: 'https://github.com/AlecCross/next-stopwatch',

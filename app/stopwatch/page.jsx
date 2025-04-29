@@ -11,7 +11,7 @@ const StopwatchPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
-    link: 'https://stopwatch.vercel.app',
+    link: 'https://next-stopwatch.vercel.app/',
   };
 
   return <AppDetailsTemplate app={audioExtractorData} />;
