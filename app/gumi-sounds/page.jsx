@@ -5,11 +5,11 @@ import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 const GumiSoundsPage = () => {
   const audioExtractorData = {
     name: 'Gumi Sounds',
-    icon: '/apps-icons/gumi-sounds/icon-512-512.webp',
+    icon: 'https://gumi-sounds.vercel.app/icons/icon-512.webp',
     description: 'Прикольні звуки на повідомлення, від папуги Gumi',
     screenshots: [
-      '/apps-icons/default-pwa-icon/icon-512.webp',
-      '/apps-icons/default-pwa-icon/icon-512.webp',
+      'https://gumi-sounds.vercel.app/screenshot-phone-1.webp',
+      'https://gumi-sounds.vercel.app/screenshot-desktop-1.webp',
     ],
     link: 'https://gumi-sounds.vercel.app',
   };

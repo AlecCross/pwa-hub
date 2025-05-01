@@ -79,7 +79,7 @@ const apps = [
     {
         name: 'Gumi-sounds',
         link: 'https://gumi-sounds.vercel.app',
-        icon: '/apps-icons/gumi-sounds/icon-512-512.webp',
+        icon: 'https://gumi-sounds.vercel.app/icons/icon-512.webp',
         path: 'gumi-sounds',
         codeLink: 'https://github.com/AlecCross/gumi-sounds',
     },
