@@ -5,8 +5,8 @@ import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 const TxtDiffPage = () => {
   const audioExtractorData = {
     name: 'Text Compare',
-    icon: 'apps-icons/txtdiff-icons/icon-512.webp',
-    description: 'Копіює текст з зображенняі',
+    icon: 'https://txtdiff.vercel.app/icons/icon-512.webp',
+    description: 'Порівнює два тексти',
     screenshots: [
       '/apps-icons/default-pwa-icon/icon-512.webp',
       '/apps-icons/default-pwa-icon/icon-512.webp',

@@ -5,11 +5,11 @@ import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 const StopwatchPage = () => {
   const audioExtractorData = {
     name: 'Stopwatch',
-    icon: 'apps-icons/stopwatch/icon-512.webp',
+    icon: 'https://next-stopwatch.vercel.app/icons/icon-512.webp',
     description: 'Найпростіший секундомір',
     screenshots: [
-      '/apps-icons/default-pwa-icon/icon-512.webp',
-      '/apps-icons/default-pwa-icon/icon-512.webp',
+      'https://next-stopwatch.vercel.app/screenshot-phone-1.webp',
+      'https://next-stopwatch.vercel.app/screenshot-desktop-1.webp',
     ],
     link: 'https://next-stopwatch.vercel.app/',
   };

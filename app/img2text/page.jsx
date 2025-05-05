@@ -6,7 +6,7 @@ const Image2TextPage = () => {
   const audioExtractorData = {
     name: 'Image to Text',
     icon: 'apps-icons/img2text/icon-512.webp',
-    description: 'Копіює текст з зображенняі',
+    description: 'Копіює текст з зображення',
     screenshots: [
       '/apps-icons/default-pwa-icon/icon-512.webp',
       '/apps-icons/default-pwa-icon/icon-512.webp',

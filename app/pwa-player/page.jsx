@@ -5,7 +5,7 @@ import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 const PWAPlayerPage = () => {
   const audioExtractorData = {
     name: 'PWA Player',
-    icon: 'apps-icons/pwa-player/icon-512.webp',
+    icon: 'https://pwa-player.vercel.app/icons/icon-512.webp',
     description: 'Плеєр папок',
     screenshots: [
       '/apps-icons/default-pwa-icon/icon-512.webp',

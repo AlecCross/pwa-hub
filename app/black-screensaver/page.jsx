@@ -5,11 +5,11 @@ import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 const AmoledSaverPage = () => {
   const audioExtractorData = {
     name: 'Amoled Saver',
-    icon: 'apps-icons/black-screensaver-pwa-icons/icon-512.webp',
+    icon: 'https://amoled-saver.vercel.app/icon-512.webp',
     description: 'Застосунок для зеежен вашго аоед дсплею золи вбн включениж',
     screenshots: [
-      '/apps-icons/default-pwa-icon/icon-512.webp',
-      '/apps-icons/default-pwa-icon/icon-512.webp',
+      'https://amoled-saver.vercel.app/screenshot-phone-1.webp',
+      'https://amoled-saver.vercel.app/screenshot-desktop-1.webp',
     ],
     link: 'https://amoled-saver.vercel.app',
   };

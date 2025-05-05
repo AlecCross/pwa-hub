@@ -5,7 +5,7 @@ import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 const PWAIconsPage = () => {
   const audioExtractorData = {
     name: 'PWA-icons',
-    icon: 'apps-icons/icons-for-pwa-webp/icon-512.webp',
+    icon: 'https://next-pwa-icons.vercel.app/icons/icon-512.webp',
     description: 'Дозволяе зробити з одної іконки - декілька, різночо розміру',
     screenshots: [
       '/apps-icons/default-pwa-icon/icon-512.webp',

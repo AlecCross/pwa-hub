@@ -5,11 +5,11 @@ import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 const RozkladkaRozkladka = () => {
   const audioExtractorData = {
     name: 'Rozkladka',
-    icon: 'apps-icons/rozkladka/icon-512.webp',
+    icon: 'https://rozkladka.vercel.app/icons/icon-512.webp',
     description: 'Якщо надрукував текст не на тій розкладці',
     screenshots: [
-      '/apps-icons/default-pwa-icon/icon-512.webp',
-      '/apps-icons/default-pwa-icon/icon-512.webp',
+      'https://rozkladka.vercel.app/screenshot-phone-1.webp',
+      'https://rozkladka.vercel.app/screenshot-desktop-1.webp',
     ],
     link: 'https://rozkladka.vercel.app',
   };
