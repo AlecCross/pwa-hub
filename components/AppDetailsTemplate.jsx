@@ -1,5 +1,5 @@
 "use client"
-import React from 'react';
+import React, {useState} from 'react';
 import Link from 'next/link';
 import styles from '../styles/AppDetailsTemplate.module.css'; // Імпортуємо стилі
 
@@ -7,6 +7,12 @@ import styles from '../styles/AppDetailsTemplate.module.css'; // Імпорту�
 const BackIcon = () => <span className={styles.backIcon}>←</span>;
 
 const AppDetailsTemplate = ({ app }) => {
+    const [iconLoaded, setIconLoaded] = useState(true); // Стан для відстеження завантаження іконки
+    
+    const handleIconError = () => {
+    setIconLoaded(false); // Встановлюємо стан помилки, якщо завантаження не вдалося
+    };
+
     return (
         <div className={styles.container}>
             <Link href="/" className={styles.backButton}>
@@ -14,7 +20,20 @@ const AppDetailsTemplate = ({ app }) => {
             </Link>
             <div className={styles.header}>
                 <div className={styles.iconWrapper}>
-                    <img src={app.icon} alt={app.name} className={styles.icon} />
+                    {iconLoaded ? (
+                        <img 
+                            src={app.icon} 
+                            alt={app.name} 
+                            className={styles.icon}
+                            onError={handleIconError}
+                        />
+                    ) : (
+                        <img 
+                            src={app.iconLocal} 
+                            alt={app.name} 
+                            className={styles.icon} 
+                        />
+                    )} 
                 </div>
                 <h2 className={styles.title}>{app.name}</h2>
                 <div className={styles.actions}>

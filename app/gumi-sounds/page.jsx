@@ -3,9 +3,10 @@ import React from 'react';
 import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 
 const GumiSoundsPage = () => {
-  const audioExtractorData = {
+  const Data = {
     name: 'Gumi Sounds',
     icon: 'https://gumi-sounds.vercel.app/icons/icon-512.webp',
+    iconLocal: '/apps-icons/gumi-sounds/icon-512-512.webp',
     description: 'Прикольні звуки на повідомлення, від папуги Gumi',
     screenshots: [
       'https://gumi-sounds.vercel.app/screenshot-phone-1.webp',
@@ -14,7 +15,7 @@ const GumiSoundsPage = () => {
     link: 'https://gumi-sounds.vercel.app',
   };
 
-  return <AppDetailsTemplate app={audioExtractorData} />;
+  return <AppDetailsTemplate app={Data} />;
 };
 
 export default GumiSoundsPage;

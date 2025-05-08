@@ -3,9 +3,10 @@ import React from 'react';
 import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 
 const AudioExtractorPage = () => {
-  const audioExtractorData = {
+  const Data = {
     name: 'Audio Extractor PWA',
     icon: 'apps-icons/audio-extractor-pwa-icons/icon-512.webp',
+    iconLocal: '/apps-icons/audio-extractor-pwa-icons/icon-512.webp',
     description: 'Застосунок для вилучення аудіо з відео.',
     screenshots: [
       '/apps-icons/default-pwa-icon/icon-512.webp',
@@ -14,7 +15,7 @@ const AudioExtractorPage = () => {
     link: 'https://next-audio-extractor.vercel.app',
   };
 
-  return <AppDetailsTemplate app={audioExtractorData} />;
+  return <AppDetailsTemplate app={Data} />;
 };
 
 export default AudioExtractorPage;

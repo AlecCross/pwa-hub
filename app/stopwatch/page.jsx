@@ -3,9 +3,10 @@ import React from 'react';
 import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 
 const StopwatchPage = () => {
-  const audioExtractorData = {
+  const Data = {
     name: 'Stopwatch',
     icon: 'https://next-stopwatch.vercel.app/icons/icon-512.webp',
+    iconLocal: '/apps-icons/stopwatch/icon-512.webp',
     description: 'Найпростіший секундомір',
     screenshots: [
       'https://next-stopwatch.vercel.app/screenshot-phone-1.webp',
@@ -14,7 +15,7 @@ const StopwatchPage = () => {
     link: 'https://next-stopwatch.vercel.app/',
   };
 
-  return <AppDetailsTemplate app={audioExtractorData} />;
+  return <AppDetailsTemplate app={Data} />;
 };
 
 export default StopwatchPage;

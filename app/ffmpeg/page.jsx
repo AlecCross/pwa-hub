@@ -3,9 +3,10 @@ import React from 'react';
 import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 
 const AmoledSaverPage = () => {
-  const audioExtractorData = {
+  const Data = {
     name: 'Stickers Converter',
     icon: 'apps-icons/ffmpeg/icon-512x512.png',
+    iconLocal: '/apps-icons/ffmpeg/icon-512x512.png',
     description: 'Конвертер відео стікерів для Telegram',
     screenshots: [
       '/apps-icons/default-pwa-icon/icon-512.webp',
@@ -14,7 +15,7 @@ const AmoledSaverPage = () => {
     link: 'https://next-ffmpeg.vercel.app',
   };
 
-  return <AppDetailsTemplate app={audioExtractorData} />;
+  return <AppDetailsTemplate app={Data} />;
 };
 
 export default AmoledSaverPage;

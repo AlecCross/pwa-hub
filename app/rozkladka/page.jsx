@@ -3,9 +3,10 @@ import React from 'react';
 import AppDetailsTemplate from '../../components/AppDetailsTemplate';
 
 const RozkladkaRozkladka = () => {
-  const audioExtractorData = {
+  const Data = {
     name: 'Rozkladka',
     icon: 'https://rozkladka.vercel.app/icons/icon-512.webp',
+    iconLocal: '/apps-icons/rozkladka/icon-512.webp',
     description: 'Якщо надрукував текст не на тій розкладці',
     screenshots: [
       'https://rozkladka.vercel.app/screenshot-phone-1.webp',
@@ -14,7 +15,7 @@ const RozkladkaRozkladka = () => {
     link: 'https://rozkladka.vercel.app',
   };
 
-  return <AppDetailsTemplate app={audioExtractorData} />;
+  return <AppDetailsTemplate app={Data} />;
 };
 
 export default RozkladkaRozkladka;
