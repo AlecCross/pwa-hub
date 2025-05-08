@@ -13,6 +13,7 @@ const GumiSoundsPage = () => {
       'https://gumi-sounds.vercel.app/screenshot-desktop-1.webp',
     ],
     link: 'https://gumi-sounds.vercel.app',
+    codeLink: 'https://github.com/AlecCross/gumi-sounds',
   };
 
   return <AppDetailsTemplate app={Data} />;

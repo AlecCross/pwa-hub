@@ -48,7 +48,6 @@ const AppDetailsTemplate = ({ app }) => {
                         </Link>
                     )}
                 </div>
-
             </div>
 
             {app.screenshots && app.screenshots.length > 0 && (

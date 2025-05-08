@@ -13,6 +13,7 @@ const AmoledSaverPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
     link: 'https://next-ffmpeg.vercel.app',
+    codeLink: 'https://github.com/AlecCross/next-ffmpeg',
   };
 
   return <AppDetailsTemplate app={Data} />;

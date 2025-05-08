@@ -13,6 +13,7 @@ const StopwatchPage = () => {
       'https://next-stopwatch.vercel.app/screenshot-desktop-1.webp',
     ],
     link: 'https://next-stopwatch.vercel.app/',
+    codeLink: 'https://github.com/AlecCross/next-stopwatch',
   };
 
   return <AppDetailsTemplate app={Data} />;

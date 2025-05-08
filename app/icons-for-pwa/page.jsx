@@ -13,6 +13,7 @@ const PWAIconsPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
     link: 'https://next-pwa-icons.vercel.app',
+    codeLink: 'https://github.com/AlecCross/next-pwa-icons',
   };
 
   return <AppDetailsTemplate app={Data} />;

@@ -13,6 +13,7 @@ const RGBWallPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
     link: 'https://rgb-wall.vercel.app',
+    codeLink: 'https://github.com/AlecCross/rgb-wall',
   };
 
   return <AppDetailsTemplate app={Data} />;

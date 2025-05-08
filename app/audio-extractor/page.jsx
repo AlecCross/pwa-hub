@@ -13,6 +13,7 @@ const AudioExtractorPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
     link: 'https://next-audio-extractor.vercel.app',
+    codeLink: 'https://github.com/AlecCross/next-audio-extractor',
   };
 
   return <AppDetailsTemplate app={Data} />;

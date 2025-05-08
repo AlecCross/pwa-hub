@@ -13,6 +13,7 @@ const TxtDiffPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
     link: 'https://txtdiff.vercel.app',
+    codeLink: 'https://github.com/AlecCross/txtdiff',
   };
 
   return <AppDetailsTemplate app={Data} />;

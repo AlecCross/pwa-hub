@@ -13,6 +13,7 @@ const PWAPlayerPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
     link: 'https://pwa-player.vercel.app',
+    codeLink: 'https://github.com/AlecCross/pwa-player',
   };
 
   return <AppDetailsTemplate app={Data} />;

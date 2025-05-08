@@ -13,6 +13,7 @@ const MusTagPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
     link: 'https://mus-tag.vercel.app',
+    codeLink: 'https://github.com/AlecCross/mus-tag',
   };
 
   return <AppDetailsTemplate app={Data} />;

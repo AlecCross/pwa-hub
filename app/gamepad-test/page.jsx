@@ -13,6 +13,7 @@ const AmoledSaverPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
     link: 'https://gamepad-test.vercel.app',
+    codeLink: 'https://github.com/AlecCross/gamepad-test',
   };
 
   return <AppDetailsTemplate app={Data} />;

@@ -14,6 +14,7 @@ const AmoledSaverPage = () => {
       'https://amoled-saver.vercel.app/screenshot-desktop-1.webp',
     ],
     link: 'https://amoled-saver.vercel.app',
+    codeLink: 'https://github.com/AlecCross/amoled-saver',
   };
 
   return <AppDetailsTemplate app={Data} />;

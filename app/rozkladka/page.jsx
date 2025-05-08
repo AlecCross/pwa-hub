@@ -13,6 +13,7 @@ const RozkladkaRozkladka = () => {
       'https://rozkladka.vercel.app/screenshot-desktop-1.webp',
     ],
     link: 'https://rozkladka.vercel.app',
+    codeLink: 'https://github.com/AlecCross/rozkladka',
   };
 
   return <AppDetailsTemplate app={Data} />;
