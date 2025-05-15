@@ -55,8 +55,8 @@ const AppDetailsTemplate = ({ app }) => {
                     <h3 className={styles.screenshotsTitle}>Скріншоти</h3>
                     <div className={styles.screenshotsContainer}>
                         {app.screenshots.map((screenshot, index) => (
-                            <div key={index} className={styles.screenshotWrapper}>
-                                <img src={screenshot} alt={`Скріншот ${index + 1}`} className={styles.screenshot} />
+                            <div key={index} className={styles.screenshotsGrid}>
+                                <img src={screenshot} alt={`Скріншот ${index + 1}`} className={styles.screenshotHorizontal} />
                             </div>
                         ))}
                     </div>
