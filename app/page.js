@@ -96,6 +96,13 @@ const apps = [
         iconLocal: '/apps-icons/txtdiff-icons/icon-512.webp',
         path: 'txtdiff',
     },
+    {
+        name: 'PWArchiver',
+        link: 'https://pwarchiver.vercel.app/',
+        icon: 'https://pwarchiver.vercel.app/icons/icon-512.webp',
+        iconLocal: '/apps-icons/pwarchiver/icon-512.webp',
+        path: 'pwarchiver',
+    },
 ];
 
 export default function Home() {
