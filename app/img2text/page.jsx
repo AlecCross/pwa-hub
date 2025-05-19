@@ -12,7 +12,7 @@ const Image2TextPage = () => {
       '/apps-icons/default-pwa-icon/icon-512.webp',
       '/apps-icons/default-pwa-icon/icon-512.webp',
     ],
-    link: 'https://img2text.vercel.app',
+    link: 'https://img2text-pwa.vercel.app',
     codeLink: 'https://github.com/AlecCross/img2text',
   };
 
